@@ -26,7 +26,7 @@ function RootLayout() {
       </main>
 
       <footer>
-        <Footer />
+        {/* <Footer /> */}
       </footer>
     </div>
   );

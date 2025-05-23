@@ -19,13 +19,13 @@ import akt4 from "../../img/akt4.png";
 
 function Team() {
   const { t } = useTranslation();
-  const [active, setActive] = useState("leadership");
+  const [active, setActive] = useState("high");
   console.log(active);
   return (
     <div className="team">
       <div className="container">
         <span>
-          <motion.button
+          {/* <motion.button
             whileInView={{ y: [50, 1] }}
             transition={{ duration: 0.2, ease: easeOut }}
             onClick={() => {
@@ -44,7 +44,7 @@ function Team() {
             className={active == "beginner" ? "active" : ""}
           >
             {t("beginner")}
-          </motion.button>
+          </motion.button> */}
           <motion.button
             whileInView={{ y: [50, 1] }}
             transition={{ duration: 0.4, ease: easeOut }}

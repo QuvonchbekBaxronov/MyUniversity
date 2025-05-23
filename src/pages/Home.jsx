@@ -10,11 +10,11 @@ import Agenda from "../components/home/Agenda.jsx";
 function Home() {
   return (
     <div className="home">
-      <Main />
-      <Support />
+      {/* <Main /> */}
+      {/* <Support /> */}
       <Content />
       <Methods />
-      <Agenda />
+      {/* <Agenda /> */}
       <Events />
       <Choice />
       <ContactForm />

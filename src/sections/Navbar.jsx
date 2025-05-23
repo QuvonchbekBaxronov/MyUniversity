@@ -56,14 +56,14 @@ function Navbar() {
             </a>
 
             <div className="links">
-              <a
+              {/* <a
                 href="#aboutUs"
                 onClick={() => {
                   navigate("/");
                 }}
               >
                 {t("aboutUs")}
-              </a>
+              </a> */}
               <a
                 onClick={() => {
                   navigate("/our_team");
@@ -74,14 +74,14 @@ function Navbar() {
               >
                 {t("ourTeam")}
               </a>
-              <a
+              {/* <a
                 href="#agenda"
                 onClick={() => {
                   navigate("/");
                 }}
               >
                 {t("agenda")}
-              </a>
+              </a> */}
               <a
                 href="#schoolLife"
                 onClick={() => {
